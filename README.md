@@ -16,9 +16,12 @@ Di seguito i collegamenti diretti alle pagine di riferimento:
 
 ## Contesto
 
-#### A draft of the project by Renzo Piano for the set of Prometheus.
+##### A draft of the project by Renzo Piano for the set of Prometheus.
 
 ![A draft of the project by Renzo Piano for the set of Prometheus.](http://www.musicainformatica.it/wp-content/uploads/2013/12/renzo-piano-struttura-prometeo.jpg)
 
-#### The overall image of the stage space and stage design.
+##### The overall image of the stage space and stage design.
 ![The overall image of the stage space and stage design.](http://www.musicainformatica.it/wp-content/uploads/2013/12/luigi-nono_prometeo_700.jpg)
+
+##### 
+![The first performance of the Prometeo at the Church of San Lorenzo. Venice, 1984.](http://www.musicainformatica.it/wp-content/uploads/2013/12/premiere-prometeo-luigi-nono.jpeg)
