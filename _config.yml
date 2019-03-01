@@ -1,1 +1,24 @@
-theme: jekyll-theme-minimal
+title: Appunti di Storia
+url: "https://lssn.github.io/appunti-di-storia/"
+baseurl: ""
+
+markdown: kramdown
+#ins_logo: "./bits-logo.png"
+
+tracking_id: #
+
+footer: yes
+footer_url: "https://lssn.github.io/appunti-di-storia/"
+footer_text: "Appunti di Storia della Musica per il corso di Tecnologie Musicali"
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+nav:
+ - name: "Home"
+   link: ""
+ # - name: "Resume"
+ #   link: "resume.pdf"
+ # - name: "Contact"
+ #   link: "contact"

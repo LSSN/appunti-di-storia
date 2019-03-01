@@ -1,29 +1,60 @@
-## Luigi Nono
+# Researcher
 
-La [Fondazione Luigi Nono](http://www.luiginono.it) raccoglie tutta la documentazione necessaria per conoscere la figura del compositore.
+### [Demo Website](http://ankitsultana.com/researcher)
 
-Di seguito i collegamenti diretti alle pagine di riferimento:
+A clean, single column, monospace resume template built for jekyll
 
-- [Biografia](http://www.luiginono.it/luigi-nono/biografia/)
-- [Opere](http://www.luiginono.it/opere/?order=year&sort=DESC)
+### Installation
 
-## Una foto per raccontarle tutte
+Simply fork the repository and edit away.
 
-![Ascolta!](http://www.nndb.com/people/306/000114961/luigi-nono-sm.jpg)
+#### Installation via remote themes
 
-## Un brano per ascoltare tutto
+* Just setting `remote_theme: ankitsultana/researcher@gem` in `_config.yml` should work. Although in that case, I am not sure how
+you would build your site locally for testing. If you know how, open up an issue and let me know.
+* For more info, [refer this](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/).
 
-- [“Hay que caminar” soñando. Descrizione](http://www.luiginono.it/opere/hay-que-caminar-sonando/#tab-id-2)
-- [“Hay que caminar” soñando. Esecuzione. Youtube](https://www.youtube.com/watch?v=D5hXMWAeOMs)
+### Customization
 
-## Contesto
+* You can edit the `.md` (markdown) files as you see fit. You can also add some other markdown file, say `foo.md` in the root directory of the repository. It will then be accessible like so `{{ url of your website }}/foo`.
 
-##### A draft of the project by Renzo Piano for the set of Prometheus.
+* You can of course remove `contact.md` if you don't want it
 
-![A draft of the project by Renzo Piano for the set of Prometheus.](http://www.musicainformatica.it/wp-content/uploads/2013/12/renzo-piano-struttura-prometeo.jpg)
+* To set the heading, edit the `title` variable in `_config.yml`
 
-##### The overall image of the stage space and stage design.
-![The overall image of the stage space and stage design.](http://www.musicainformatica.it/wp-content/uploads/2013/12/luigi-nono_prometeo_700.jpg)
+* To edit the `links` mentioned on the navigation bar, you can edit `_config.yml`. For example:
 
-##### The first performance of the Prometeo at the Church of San Lorenzo. Venice, 1984.
-![The first performance of the Prometeo at the Church of San Lorenzo. Venice, 1984.](http://www.musicainformatica.it/wp-content/uploads/2013/12/premiere-prometeo-luigi-nono.jpeg)
+```
+nav:
+ - name: "About"
+   link: "/researcher/"
+ - name: "Resume"
+   link: "resume.pdf"
+ - name: "Contact"
+   link: "contact"
+```
+
+* You can change the accent (color of hyperlinks) by editing the `accent` variable in `_sass/vars.scss`
+
+* You can setup google analytics, by setting `tracking_id` in `_config.yml`
+
+* To add a profile picture, make sure to give the image tag the class `profile-picture`. In other words,do it like so:
+
+```html
+<img class="profile-picture" src="sherlock.jpg">
+```
+
+* You can remove/customize the footer as you like by setting the
+appropriate variables in `_config.yml`
+
+* (New in v1.2.0) You can add institute logo at the top, by setting `ins_logo` in `_config.yml`. If you want
+to adjust the logo's size, try setting `max-height` in `#ins-logo` in file `./_sass/_style.scss` to the desired
+value
+
+![Institute Logo Image Sample](https://github.com/ankitsultana/assets/raw/master/ins-logo-sample.png)
+
+**Note:** Customizing the accent color might cause merge conflicts if you later try to merge from `bk2dcradle/researcher` to fetch updates/patches etc. (applicable only if you have forked).
+
+### License
+
+[GNU GPL v3](https://github.com/bk2dcradle/researcher/blob/gh-pages/LICENSE)
