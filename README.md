@@ -9,6 +9,8 @@ Di seguito i collegamenti diretti alle pagine di riferimento:
 
 ## Una foto per raccontarle tutte
 
+![Ascolta!](http://www.nndb.com/people/306/000114961/luigi-nono-sm.jpg)
+
 ## Un brano per ascoltare tutto
 
 - [“Hay que caminar” soñando. Descrizione](http://www.luiginono.it/opere/hay-que-caminar-sonando/#tab-id-2)
