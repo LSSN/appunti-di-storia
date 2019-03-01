@@ -1,6 +1,6 @@
 title: Appunti di Storia
-url: "https://lssn.github.io/appunti-di-storia/"
-baseurl: ""
+url: "https://lssn.github.io/"
+baseurl: "/appunti-di-storia"
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
@@ -17,7 +17,7 @@ sass:
 
 nav:
  - name: "Home"
-   link: ""
+   link: "/appunti-di-storia/"
  # - name: "Resume"
  #   link: "resume.pdf"
  # - name: "Contact"
