@@ -23,5 +23,5 @@ Di seguito i collegamenti diretti alle pagine di riferimento:
 ##### The overall image of the stage space and stage design.
 ![The overall image of the stage space and stage design.](http://www.musicainformatica.it/wp-content/uploads/2013/12/luigi-nono_prometeo_700.jpg)
 
-##### 
+##### The first performance of the Prometeo at the Church of San Lorenzo. Venice, 1984.
 ![The first performance of the Prometeo at the Church of San Lorenzo. Venice, 1984.](http://www.musicainformatica.it/wp-content/uploads/2013/12/premiere-prometeo-luigi-nono.jpeg)
